@@ -10,7 +10,6 @@ export default class MainPage extends React.Component {
   };
 
   componentDidMount() {
-    console.log("BACK: " + process.env.REACT_APP_BACKEND_URL);
     fetch(process.env.REACT_APP_BACKEND_URL + '/posts/')
       .then(res => res.json())
       .then(data => {
