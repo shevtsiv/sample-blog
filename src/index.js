@@ -11,7 +11,6 @@ import DonatePage from "./pages/donate";
 import PostPage from "./pages/post";
 
 ReactDOM.render(
-  // TODO: Fix routes to be absolute instead of relative to the current page url
   <BrowserRouter>
     <Route exact path="/" component={MainPage}/>
     <Route exact path="/about" component={AboutPage}/>
