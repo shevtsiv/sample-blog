@@ -1,13 +1,136 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.body {
+    background-color: #f5f6f8;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.posts-block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    max-width: 1200px;
 }
+
+.post {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-transition: all 0.1s linear;
+    font-size: 26px;
+    box-shadow: 10px 10px 30px #CCC;
+    transition: all 0.5s;
+    transform: translateZ(0);
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post-horizontal {
+    box-sizing: border-box;
+    margin: 0 0 40px;
+    font-size: 28px;
+}
+
+.post-stretch-image {
+    visibility: hidden;
+    width: 100%;
+    min-height: 270px;
+    max-height: 470px;
+}
+
+.post:hover {
+    transform: scale(1.02);
+    transition: all 0.2s;
+    text-decoration: none;
+}
+
+.post-title {
+    display: block;
+    font-size: 5vmax;
+    font-weight: 500;
+    line-height: 1.3em;
+    background-color: #FFF;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.post:hover .post-title {
+    background-color: #333;
+    color: #FFF;
+    transition: all 0.3s;
+}
+
+.post-headline {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    min-height: 450px;
+}
+
+.post-image {
+    display: block;
+    z-index: 10;
+    max-width: 100%;
+    height: auto;
+}
+
+.post-info {
+    position: absolute;
+    display: block;
+    bottom: 20px;
+    font-weight: 400;
+    width: 100%;
+    margin: 27px auto;
+    box-sizing: border-box;
+    color: #FFF;
+    text-align: center;
+    z-index: 20;
+    font-size: 42px;
+}
+
+.post-content-title {
+    display: block;
+    font-size: 4vmax;
+    font-weight: 500;
+    line-height: 1.3em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #000;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.post-content {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+    letter-spacing: 0.01rem;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 1.67;
+    color: #464848;
+    font-family: 'Merriweather', Georgia, Times, serif;
+    font-weight: 300;
+}
+
+.block-text {
+    width: 100%;
+    background-color: #FFF;
+    margin: 40px auto 40px;
+    position: relative;
+    display: block;
+    padding: 40px 60px;
+    clear: both;
+    box-sizing: border-box;
+}
+
