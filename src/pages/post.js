@@ -39,17 +39,7 @@ export default class PostPage extends React.Component {
             <div className="post-content-title">{this.state.title}</div>
           </div>
         </div>
-        {/* TODO: Move these styles to .css file */}
-        <Container style={{
-          width: 'auto',
-          maxWidth: 900,
-          position: 'relative',
-          fontFamily: 'Merriweather, Georgia, Times, serif',
-          fontStyle: 'normal',
-          fontSize: '20px',
-          fontWeight: 450,
-          display: 'block'
-        }}>
+        <Container style={{maxWidth: 900}}>
           <div className="post-content">
             <div dangerouslySetInnerHTML={{__html: this.state.markedContent}}/>
           </div>
