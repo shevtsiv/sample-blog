@@ -14,3 +14,11 @@ Also, there is a sticky navbar with the title and a few links.
 So, basically, this application is the read-only application that retrieves all the information from the server-side.
 The main logic is implemented on the server-side as well. 
 You can find back-end side following this link: github.com/shevtsiv/sample-blog-back
+The design is fully responsive(actually I'm not sure).
+
+Some screenshots:
+![Main Page](public/screenshots/main_page_view.PNG)
+![Main Page with cursor pointing on post](public/screenshots/main_page_cursor_pointing_view.png)
+![Post page view](public/screenshots/post_page_view.PNG)
+![Post page IPad view](public/screenshots/ipad_view.PNG)
+![Main page IPhone view](public/screenshots/iphone_view.PNG)
