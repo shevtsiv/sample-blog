@@ -13,7 +13,7 @@ Also, there is a sticky navbar with the title and a few links.
 
 So, basically, this application is the read-only application that retrieves all the information from the server-side.
 The main logic is implemented on the server-side as well. 
-You can find back-end side following this link: github.com/shevtsiv/sample-blog-back
+You can find back-end side following this link: [sample-blog-back](https://github.com/shevtsiv/sample-blog-back)
 The design is fully responsive(actually I'm not sure).
 
 Some screenshots:
